@@ -111,7 +111,7 @@ main section#jackpot ul li {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     transition: all 0.3s ease;
-    animation: fade-flash 0.2s infinite alternate; /* 100ms for each state */
+    animation: fade-flash 0.5s infinite alternate; /* 100ms for each state */
     line-height: 1.5; /* Ensure text inside buttons isn't clipped */
     display: inline-block;
     margin-bottom: 10px; /* Add margin below the button */
@@ -139,7 +139,7 @@ footer {
         opacity: 1;
     }
     100% {
-        background: linear-gradient(to bottom, #ffee80, #ff7040); /* Slightly brighter */
+        background: linear-gradient(to bottom, #fae455, #ff5d28); /* Slightly brighter */
         opacity: 0.8; /* Add fade effect */
     }
 }
