@@ -95,14 +95,12 @@
 
         document.getElementById("acceptButton").addEventListener("click", function () {
       // Set 1000 cookies
-      for (let i = 1; i <= 1000; i++) {
-        document.cookie = `${i}=this is a cookie; path=/;`;
-      }
-      alert("1000 cookies have been set!");
-      // Remove the popup
-      const popupOverlay = document.getElementById("popupOverlay");
-      popupOverlay.parentNode.removeChild(popupOverlay);
-    });
+          for (let i = 1; i <= 100000; i++) {
+            document.cookie = `${i}=this is a cookie; path=/;`;
+          }
+          const popupOverlay = document.getElementById("popupOverlay");
+          popupOverlay.parentNode.removeChild(popupOverlay);
+        });
     </script>
     <footer>
         <div class="container animated-border">
