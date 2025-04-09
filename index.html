@@ -79,28 +79,19 @@
             </div>
         </section>
     </main>
-    <!-- Popup structure -->
+    <!-- Popup structure 
       <div id="popupOverlay">
         <div id="popupContent">
           <p>You must accept to proceed.</p>
           <button id="acceptButton">Accept</button>
         </div>
-      </div>
+      </div>-->
     <script>
         function join() {
             for (let i = 0; i < 20; i++) {
                 window.open("https://www.govt.nz/browse/law-crime-and-justice/scams/", "_blank");
             }
         }
-
-        document.getElementById("acceptButton").addEventListener("click", function () {
-      // Set 1000 cookies
-          for (let i = 1; i <= 300; i++) {
-            document.cookie = `${i}=this is a cookie; path=/;`;
-          }
-          const popupOverlay = document.getElementById("popupOverlay");
-          popupOverlay.parentNode.removeChild(popupOverlay);
-        });
     </script>
     <footer>
         <div class="container animated-border">
